@@ -74,6 +74,21 @@ The live deployed application can be found deployed on : [Heroku]()
 
 ## Testing 
 
+| Name | Type | Description |
+|:---------------------------|:---------------:|:-----------|
+| `files` (optional) | `FilePathsOrGlobs` | Files to process. |
+| `transforms` (optional) | `Array` | <img src="drawing.jpg" alt="drawing" width="200" />|
+| `output` (optional) | `OutputConfig` | Output configuration. |
+| `syntax` (optional) | `SyntaxType` | Syntax to parse. Default: `md` |
+| `open` (optional) | `string` | Opening match word. Default: `doc-gen` |
+| `close` (optional) | `string` | Closing match word. If not defined will be same as opening word. Default: `end-doc-gen` |
+| `cwd` (optional) | `string` | Current working directory. Default process.cwd(). Default: `process.cwd() ` |
+| `outputFlatten` (optional) | `boolean` | Flatten files that are output. |
+| `useGitGlob` (optional) | `boolean` | Use git glob for LARGE file directories. |
+| `dryRun` (optional) | `boolean` | See planned execution of matched blocks. Default: `false` |
+| `debug` (optional) | `boolean` | See debug details. Default: `false` |
+| `silent` (optional) | `boolean` | Silence all console output. Default: `false` |
+| `failOnMissingTransforms` (optional) |<img src="https://github.com/user-attachments/assets/eff08611-f7cc-478a-aeda-8c68fb03a850" width="400" height="400" /> | Fail if transform functions are missing. Default skip blocks. Default: `false` |
 
 ## Credits
 
