@@ -12,7 +12,6 @@ Live Site Link
 ## UX (User Experience)
 
 
-### Wireframes
 
 
 ### Color Scheme
@@ -25,7 +24,9 @@ Source : [Adobe Color](https://color.adobe.com/)
 * [Font Awesom](https://fontawesome.com/)    : The icons used where imported from Font Awesom
 * [Fvicon](https://favicon.io/) : The favicon used is from the following link
 
-## User Stories 
+### User Stories 
+
+### Wireframes
 
 
 ## Features Implemented
