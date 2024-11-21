@@ -9,7 +9,10 @@ Live Site Link
 [Am I Resbonsive](https://ui.dev/amiresponsive?url=https://lens-whisperer-1fde92b99730.herokuapp.com)
 
 
+## UX (User Experience)
 
+
+### Wireframes
 
 
 ## Color Scheme
@@ -24,7 +27,6 @@ Source : [Adobe Color](https://color.adobe.com/)
 
 ## User Stories 
 
-## Wireframes
 
 ## Features Implemented
 
