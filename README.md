@@ -27,6 +27,9 @@ Source : [Adobe Color](https://color.adobe.com/)
 ### User Stories 
 
 ### Wireframes
+#### Desktop  Wireframes
+#### Tablet  Wireframes
+#### Mobile Wireframes
 
 
 ## Features Implemented
