@@ -5,7 +5,7 @@ Brife Introduction
 Here's my deployed site : []()
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/eff08611-f7cc-478a-aeda-8c68fb03a850" width="600" height="600" />
+    <img src="https://github.com/user-attachments/assets/27c0285c-6c1b-4a49-93d1-8a5902af7a50" width="600" height="600" />
 </p>
 
 
