@@ -27,7 +27,7 @@ Source : [Adobe Color](https://color.adobe.com/)
 
 
 ### Typography
-* [Google Fonts](https://fonts.google.com/?query=bitter) : Poppins font with varying weight was used across the site. The font was imported from google fonts. Roboto font is the fall back font in the case of an import error.
+* [Google Fonts](https://fonts.google.com/?query=bitter) : Poppins and Roboto font with varying weight was used across the site. The font was imported from google fonts. sans-serif font is the fall back font in the case of an import error.
 * [Font Awesom](https://fontawesome.com/)    : The icons used where imported from Font Awesom
 * [Fvicon](https://favicon.io/) : The favicon used is from the following link
 
