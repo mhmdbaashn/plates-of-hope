@@ -4,6 +4,6 @@ from django.http import HttpResponse
 
 
 
-def meals(request):
+def meal(request):
     return HttpResponse('Hi I am Coming')
 
