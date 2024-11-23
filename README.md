@@ -1,6 +1,9 @@
 # **HungerFree Cork** 
 
-Brife Introduction
+### Brife Introduction
+A web application that allows restaurants to register and offer surplus meals to those in need. Beneficiaries (or organizations helping them) can log in and request meals.
+
+---
 
 Here's my deployed site : []()
 
@@ -14,6 +17,15 @@ Live Site Link
 [Am I Resbonsive](https://github.com/user-attachments/assets/27c0285c-6c1b-4a49-93d1-8a5902af7a50)
 
 ## Tsble of Contetn 
+
+* Planning & Development 
+* Features
+* Testing
+* Deployment
+* Tools and Technologies used
+* Credits
+
+
 
 ## User Experience (UX)
 
