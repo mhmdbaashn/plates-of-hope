@@ -14,7 +14,7 @@ Here's my deployed site : []()
 
 
 Live Site Link 
-[Am I Resbonsive](https://github.com/user-attachments/assets/27c0285c-6c1b-4a49-93d1-8a5902af7a50)
+[Am I Resbonsive](https://ui.dev/amiresponsive)
 
 ## Tsble of Contetn 
 
