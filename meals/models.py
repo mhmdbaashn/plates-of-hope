@@ -1,12 +1,24 @@
 from django.db import models
-# from django.contrib.auth.models import User
+from django.contrib.auth.models import User
 
-# class Meal(models.Model):
-#     name = models.CharField(max_length=100)
-#     description = models.TextField()
-#     quantity = models.PositiveIntegerField()
-#     expiry_date = models.DateTimeField()
-#     created_at = models.DateTimeField(auto_now_add=True)
-#     restaurant = models.ForeignKey(User, on_delete=models.CASCADE, related_name='meals')
-#     is_available = models.BooleanField(default=True)
-#     location = models.CharField(max_length=255)
+# Restaurant model
+class Restaurant(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+    address = models.TextField()
+    contact = models.CharField(max_length=15)
+
+    def __str__(self):
+        return self.name
+
+# Meal model
+class Meal(models.Model):
+    restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+    description = models.TextField()
+    quantity = models.IntegerField()
+    expiry_date = models.DateField()
+    status = models.CharField(max_length=50, choices=[('available', 'Available'), ('claimed', 'Claimed')], default='available')
+
+    def __str__(self):
+        return self.name
